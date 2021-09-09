@@ -1,0 +1,13 @@
+.gridContainer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 5px;
+    grid-template-columns: 1fr 1.2fr;
+}
+
+.gridItem {
+    height: 90vh;
+    /*display: grid;
+    grid-template-rows: 90px 67px 400px 30px;
+    */
+}

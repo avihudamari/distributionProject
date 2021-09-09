@@ -1,0 +1,9 @@
+.root {
+    text-align: center;
+    padding: 100px;
+}
+.label {
+    font-weight: bold;
+    direction: rtl;
+    margin-block: 30px;
+}

@@ -1,0 +1,40 @@
+.gridContainer {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 5px;
+    grid-template-columns: 1fr 1.2fr;
+}
+
+.gridItem {
+    height: 90vh;
+}
+
+.submitDistributionButton {
+    text-align-last: center;
+    margin-block: 30px;
+}
+
+.card {
+    width: 400px;
+    background-color: powderblue;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.root {
+    text-align: center;
+    padding: 100px;
+}
+
+.noMap {
+    background-color: #e7f2f5;
+}
+
+.noMapLabel {
+    text-align: center;
+    margin-block: 250px;
+    font-weight: bold;
+    font-size: larger;
+}

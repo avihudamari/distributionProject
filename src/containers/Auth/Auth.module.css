@@ -1,0 +1,65 @@
+/*
+.Auth {
+    height: 89vh;
+}
+
+.AuthCard {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 20;
+}
+*/
+
+.Auth {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 100px;
+    background-color: white;
+}
+
+.Background {
+    background-image: url("../../assets/images/logo.jpg");
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}
+
+.Title {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.Form {
+    display: grid;
+    direction: rtl;
+    justify-items: center;
+    padding-bottom: 30px;
+    align-content: space-around;
+    height: 115px;
+}
+
+.MyButton {
+    margin-block: 20px;
+}
+
+.ErrorMessage {
+    color: red;
+}
